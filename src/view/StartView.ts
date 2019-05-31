@@ -24,7 +24,7 @@ class StartView extends egret.Sprite{
      * Click the button
      */
     private onButtonClick(e: egret.TouchEvent) {
-        let jd = new JD();
+        let jd= new ZJDGame();
 		this.parent.addChild(jd);
 		this.parent.removeChild(this);
     }

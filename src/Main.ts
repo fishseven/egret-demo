@@ -142,12 +142,12 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected startCreateScene(): void {
-        // let sky = this.createBitmapByName("bg_jpg");
-        // this.addChild(sky);
-        // let stageW = this.stage.stageWidth;
-        // let stageH = this.stage.stageHeight;
-        // sky.width = stageW;
-        // sky.height = stageH;
+        let sky = this.createBitmapByName("bg_png");
+        this.addChild(sky);
+        let stageW = this.stage.stageWidth;
+        let stageH = this.stage.stageHeight;
+        sky.width = stageW;
+        sky.height = stageH;
 
         // let topMask = new egret.Shape();
         // topMask.graphics.beginFill(0x000000, 0.5);

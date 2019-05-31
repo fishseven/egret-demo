@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,egg_png,bg_png,egg2_png,hit_png,faiImg1-2_png",
 			"name": "preload"
 		}
 	],
@@ -132,9 +132,34 @@
 			"name": "egret_icon_png"
 		},
 		{
-			"name": "description_json",
+			"url": "config/description.json",
 			"type": "json",
-			"url": "config/description.json"
+			"name": "description_json"
+		},
+		{
+			"url": "zjd/egg.png",
+			"type": "image",
+			"name": "egg_png"
+		},
+		{
+			"url": "zjd/bg.png",
+			"type": "image",
+			"name": "bg_png"
+		},
+		{
+			"url": "zjd/egg2.png",
+			"type": "image",
+			"name": "egg2_png"
+		},
+		{
+			"url": "zjd/hit.png",
+			"type": "image",
+			"name": "hit_png"
+		},
+		{
+			"url": "zjd/faiImg1-2.png",
+			"type": "image",
+			"name": "faiImg1-2_png"
 		}
 	]
 }
